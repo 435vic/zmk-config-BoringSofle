@@ -1,0 +1,23 @@
+# This file was generated from a template. Edit it to match your keyboard.
+# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files
+# for instructions.
+
+file_format: "1"
+id: boring_sofle
+name: Boring Sofle
+type: shield
+
+# Set this to a URL that documents the keyboard.
+url: https://github.com/435vic/zmk-config-BoringSofle
+
+features:
+  - keys
+  - studio  # Remove this line if your keyboard will not support ZMK Studio
+  - display
+  - encoder
+requires:
+  - pro_micro
+
+siblings:
+  - boring_sofle_left
+  - boring_sofle_right
