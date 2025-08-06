@@ -51,8 +51,4 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)         RC(2, 12)         RC(3,6
         sensors = <&encoder>;
         triggers-per-rotation = <20>;
     };
-
-    &pro_micro_i2c {
-        status = "disabled";
-    };
 };
