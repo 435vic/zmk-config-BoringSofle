@@ -26,7 +26,7 @@
 // encoder is on left half only
 &encoder {
     status = "okay";
-}
+};
 
 // The MOSI and SLC pins don't have jumpers and are reversed between halves
 &pinctrl {
